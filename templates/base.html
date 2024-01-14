@@ -1,0 +1,55 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  {% block css_file %}
+      <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    {% endblock %}
+
+
+
+</head>
+<body style="background-color: #04AA6D;">
+ {% block content %}
+
+<br>
+<br>
+<center>
+  <h1 style="color: maroon;">Welcome to Mawimbi Tea Company LTD</h1>
+</center>
+
+
+
+
+{% endblock content%}
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

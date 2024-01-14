@@ -1,0 +1,88 @@
+
+{% include 'navigation.html' %}
+
+{% load static %}
+<!-- {% include 'base.html' %} -->
+
+<!DOCTYPE html>
+<html>
+
+  {% block css_file %}
+      <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    {% endblock %}
+
+<head>
+<style>
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: seagreen;
+}
+
+.active {
+  background-color: seagreen;
+}
+
+
+</style>
+</head>
+<body style="border-radius: 10px;">
+
+<ul>
+
+  
+
+   <center> <h1 style="color: darkgreen; font-weight: bold; margin: 0px;">MAWIMBI TEA COMPANY LTD</h1>
+   </center>
+   <br>
+   <br>
+   <br>
+
+<img src="{%  static 'images/tea.jpg' %}" width="559px" height="394px" style="float: right; margin: 10px; border-radius: 20px;">
+
+  
+      
+    <p style="color: black; padding: 10px;"> Mawimbi Tea Company is a subsidiary of Kenya Tea Development Agency Limited (KTDA), <br> 
+      which is the largest small scale farmer umbrella body in the World with over 650,000 farmers. <br>
+      These farmers own over 60 tea processing factories and produce slightly above 60% of all Kenyan tea. <br>
+      We have remained at the forefront of embracing technology and refreshed our local and international <br>customers from insights and expertise gathered over 40 years since inception in 1978. <br>
+      Our leaves are handpicked from lush green tea fields in Kenya’s pristine highlands, <br>
+      7000 feet above sea level. Our tea is manufactured locally by Mawimbi factories <br>
+      and Mawimbi members and we pick only the best for packaging. To complement our tea business,<br>
+      we have Afya Purified drinking water which is packaged in our Mombasa factory through modern technology. <br>
+      Our primary focus is to avail high quality Kenyan-grown tea and safe drinking water at affordable prices  <br>
+      while having a positive impact in our communities and employees.Through our backward integration with KTDA,we are able to transform and empower hundreds of thousands of tea farmers in tea growing zones <br>
+      in health, education, economic empowerment and environmental sustainability.
+    </p>   
+
+
+
+</ul>
+ <p style="color: green;">&copy; Mawimbi Tea Company LTD, 2023</p>
+</body>
+</html>
+
+

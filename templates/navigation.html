@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mawimbi Tea Company</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="margin-right: 50px; margin-left: 20px">
+
+    <ul class="nav navbar-nav" style="float: right; color: green;">
+      <li class="active"><a href="{% url 'home'%}">Home</a></li>
+       <li class="active"><a href="{% url 'about'%}">About</a></li>
+           <li class="active"><a href="{% url 'contact'%}">Contact</a></li>
+
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Login <span class="caret"></span></a>
+        <ul class="dropdown-menu" style="background-color: green;">
+          <li><a href="/admin" style="color: darkred;  font-weight: bold; font-size: 15px; bolder;">Admin</a></li>
+        
+          <li><a href="/TeaCollection" style="color: darkred; font-size: 15px; font-weight: bold">Tea Collection</a></li>
+          <li><a href="/logout" style="color: darkred;  font-size: 15px;darkred; font-weight: bold">Logout</a></li>
+
+          
+        </ul>
+      </li>
+  
+  </div>
+</nav>
+  
+<div class="container">
+
+  <p></p>
+  </center>
+</div>
+
+</body>
+</html>
